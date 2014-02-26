@@ -1,0 +1,19 @@
+/*
+ Theme Name:     Baseshine
+ Theme URI:      http://designchapter.com/baseshine
+ Description:    Base-wp Child Theme
+ Author:         Boxspin
+ Author URI:     http://designchapter.com
+ Template:       base-wp
+ Version:        1.0.0
+*/
+
+@import url("../base-wp/style.css");
+
+/* =Theme customization starts here
+-------------------------------------------------------------- */
+
+.header-image img {
+display: block;
+margin: 0 auto;
+}
