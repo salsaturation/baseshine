@@ -26,3 +26,8 @@
 display: block;
 margin: 0 auto;
 }
+
+
+.site-branding {
+display: none;
+}
