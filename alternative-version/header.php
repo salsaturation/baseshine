@@ -20,6 +20,9 @@
 <body <?php body_class(); ?>>
 <div id="page" class="hfeed site">
 	<?php do_action( 'before' ); ?>
+	<div class="header-image">
+      		<img src="<?php header_image(); ?>" height="<?php echo get_custom_header()->height; ?>" width="<?php echo get_custom_header()->width; ?>" alt="" />
+      </div> 
 	<header id="masthead" class="site-header" role="banner">
 		<div class="site-branding">
         <div class="container branding">
@@ -32,9 +35,6 @@
 		<?php endif; ?>
         </div><!-- .container branding-->
         </div><!-- .site-branding-->
-		      <div class="header-image">
-      		<img src="<?php header_image(); ?>" height="<?php echo get_custom_header()->height; ?>" width="<?php echo get_custom_header()->width; ?>" alt="" />
-      </div> 
       <div class=" container navmenu">
         <nav id="site-navigation" class="main-navigation" role="navigation">
 			<h1 class="menu-toggle"><?php _e( 'Menu', 'base' ); ?></h1>
