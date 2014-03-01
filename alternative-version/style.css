@@ -27,7 +27,10 @@ display: block;
 margin: 0 auto;
 }
 
-
 .site-branding {
 display: none;
+}
+
+input[type="search"] {
+width: 95%;
 }
